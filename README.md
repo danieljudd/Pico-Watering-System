@@ -18,7 +18,7 @@ Optionally, this will actuate an attached relay to dispense water at a user-defi
 
 Grow lights can be attached which then turn on at dusk and watering actions will resume again in the morning.
 
-Truncation of the file system can occur once the 2MB storage limit is approaching, this will shift a batch of the newer data to the same, but vacated file. Allows system to run indefinitely (well, in testing it worked).
+Truncation of the file system can occur once the 2MB storage limit is approaching (fills in about a week), this will shift a batch of the newer data to the same, but vacated file. Allows system to run indefinitely (well, in testing it worked).
 
 Wi-Fi reconnects every hour if connection is dropped, system will still run if this happens.
 
@@ -54,11 +54,11 @@ Wi-Fi reconnects every hour if connection is dropped, system will still run if t
 
 
 ## Images:
-![UI main](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/1.jpg)
-![Recent data](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/2.jpg)
-![Watering in action](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/3.jpg)
-![Graph of compiled data from file system](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/4.jpg)
-![LED Light system](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/5.jpg)
-![Notifications area](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/6.jpg)
-![Wire/GPIO setup](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/7.jpg)
-![Box gap with external light sensor and soil moisture sensor](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/8.jpg)
+- [UI main](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/1.jpg)
+- [Recent data](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/2.jpg)
+- [Watering in action](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/3.jpg)
+- [Graph of compiled data from file system](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/4.jpg)
+- [LED Light system](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/5.jpg)
+- [Notifications area](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/6.jpg)
+- [Wire/GPIO setup](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/7.jpg)
+- [Box gap with external light sensor and soil moisture sensor](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/8.jpg)
