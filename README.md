@@ -4,7 +4,7 @@ RP2040W Efficient Greenhouse Watering System
 Why this exists:
 University project AND, I really wanted something to measure my plant's health in the greenhouse because I'm usually busy.
 
-- [Use case](#use-case-(greenhouse))
+- [Use case](#use-case-greenhouse)
 - [Hardware parts](#hardware-parts)
 - [Configuration](#configuration)
 - [Images](#images)
