@@ -34,8 +34,8 @@ Wi-Fi reconnects every hour if connection is dropped, system will still run if t
 
 
 ## Hardware parts:
-- Analogue light sensor (Any - with calibration)
-- Analogue soil moisture sensor (Any - with calibration)
+- 3.3V Analogue light sensor (Any - with calibration)
+- 3.3V Analogue soil moisture sensor (Any - with calibration)
 - Digital temperature and humidity sensor (DHT11)
 - A case with side-gaps for sensors to sense but minimal moisture ingress
 - Relay (3.3V actuation) - 2-Channel was used but any number is fine
@@ -47,8 +47,8 @@ Wi-Fi reconnects every hour if connection is dropped, system will still run if t
 ## Configuration:
 - Use Updated MicroPython firmware on RP2040 W
 - Use Thonny:
-    - Set Wi-Fi credentials
-    - Set GPIO pins
+    - **Set Wi-Fi credentials** - 'ssid' and 'password' fields
+    - Set GPIO pins for your attached sensors or hardware
     - Comment in/out routines that are not applicable
 - Thonny console will show IP address on connection, or check your router
 
