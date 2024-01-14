@@ -1,6 +1,15 @@
 # Pico-Watering-System
 RP2040W Efficient Greenhouse Watering System
 
+Why this exists:
+University project AND, I really wanted something to measure my plant's health in the greenhouse because I'm usually busy.
+
+- [Use case](#-use-case-(greenhouse))
+- [Hardware parts](#-hardware-parts)
+- [Configuration](#-configuration)
+- [Images](#-images)
+
+
 How it works + Features:
 
 This system physically sits in a greenhouse and collects data locally on the Pico's 2MB of memory. It hosts a web service on a local network for accessible viewing of recently collected data and updates regularly. It can also run on batteries where 10k mAh = about 5 continuous days of runtime.
@@ -35,7 +44,7 @@ Wi-Fi reconnects every hour if connection is dropped, system will still run if t
     -    Lights (Use correct spectrum for growing)
 - (Optional) Battery x2 - Battery pack to power relays and one USB connection for RP2040
 
-# Configuration:
+## Configuration:
 - Use Updated MicroPython firmware on RP2040 W
 - Use Thonny:
     - Set Wi-Fi credentials
@@ -44,12 +53,12 @@ Wi-Fi reconnects every hour if connection is dropped, system will still run if t
 - Thonny console will show IP address on connection, or check your router
 
 
-Images:
-[UI main](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/1.jpg)
-[Recent data](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/2.jpg)
-[Watering in action](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/3.jpg)
-[Graph of compiled data from file system](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/4.jpg)
-[LED Light system](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/5.jpg)
-[Notifications area](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/6.jpg)
-[Wire/GPIO setup](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/7.jpg)
-[Box gap with external light sensor and soil moisture sensor](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/8.jpg)
+## Images:
+![UI main](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/1.jpg)
+![Recent data](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/2.jpg)
+![Watering in action](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/3.jpg)
+![Graph of compiled data from file system](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/4.jpg)
+![LED Light system](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/5.jpg)
+![Notifications area](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/6.jpg)
+![Wire/GPIO setup](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/7.jpg)
+![Box gap with external light sensor and soil moisture sensor](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/8.jpg)
