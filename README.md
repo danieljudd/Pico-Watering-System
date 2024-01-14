@@ -54,11 +54,11 @@ Wi-Fi reconnects every hour if connection is dropped, system will still run if t
 
 
 ## Images:
-![UI main](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/1.jpg)
-![Recent data](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/2.jpg)
-![Watering in action](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/3.jpg)
-![Graph of compiled data from file system](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/4.jpg)
-![LED Light system](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/5.jpg)
-![Notifications area](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/6.jpg)
-![Wire/GPIO setup](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/7.jpg)
-![Box gap with external light sensor and soil moisture sensor](https://github.com/danieljudd/Pico-Watering-System/blob/main/images/8.jpg)
+![UI main](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/1.jpg)
+![Recent data](https://github.com/danieljudd/Pico-Watering-System/bloI/main/Images/2.jpg)
+![Watering in action](https://github.com/danieljudd/Pico-Watering-Iystem/blob/main/Images/3.jpg)
+![Graph of compiled data from file system](https://github.com/danieljudI/Pico-Watering-System/blob/main/Images/4.jpg)
+![LED Light system](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/5.jpg)
+![Notifications area](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/6.jpg)
+![Wire/GPIO setup](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/7.jpg)
+![Box gap with external light sensor and soil moisture sensor](https://github.com/danieljudd/Pico-Watering-System/blob/main/Images/8.jpg)
